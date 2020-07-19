@@ -1,0 +1,70 @@
+@media screen and (min-width: 1201px) {
+
+}
+
+@media screen and (max-width: 1200px) and (min-width: 993px) {
+    .app {
+        margin: 0;
+    }
+    .header-search{
+        right: 0;
+    }
+}
+
+@media screen and (max-width: 992px) and (min-width: 769px) {
+    .app {
+        margin: 0;
+    }
+    .header-search{
+        right: 0;
+    }
+    .book-cover{
+        width: 24.4%;
+        padding: 1% 0.3%;
+    }
+    .sidebar-cart{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 641px) {
+    .app {
+        margin: 0;
+    }
+    .header-search{
+        right: 0;
+    }
+    .book{
+        font-size: 16px;
+    }
+    .book-cover{
+        width: 32.4%;
+        padding: 1% 0.3%;
+    }
+    .sidebar-cart{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 640px) and (min-width: 320px) {
+    .app {
+        margin: 0;
+    }
+    .header-search{
+        right: 0;
+        width: 280px;
+    }
+    .header-menu{
+        display: none;
+    }
+    .book{
+        font-size: 16px;
+    }
+    .book-cover{
+        width: 49.4%;
+        padding: 1% 0.3%;
+    }
+    .sidebar-cart{
+        font-size: 12px;
+    }
+}
